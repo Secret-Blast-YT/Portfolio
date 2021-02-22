@@ -37,7 +37,7 @@ body {
 h1 {
     font-size: 40px;
     line-height: 1.2;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Shippori Mincho', serif;
     font-weight: 300;
 }
 
@@ -51,7 +51,7 @@ h2 {
     font-size: 30px;
     font-weight: 300;
     line-height: 1.2;
-    font-family: sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #bio {
@@ -97,4 +97,16 @@ p {
 
 .links:hover {
     background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: darkslategrey;
+}
+
+html {
+    scroll-behavior: smooth
 }
